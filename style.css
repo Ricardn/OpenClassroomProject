@@ -1,0 +1,79 @@
+*{
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1440px;
+    margin: auto;
+    padding: 0 2rem;
+    box-sizing: border-box;
+}
+
+/** Taille Logo **/
+
+.headerlogoImg {
+    padding: 0rem;
+    height: 2.9rem;
+}
+
+/** Header **/
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0px;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+}
+
+/** Mise en page Barre Navigation **/
+
+.headernavlink {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+nav a {
+    font-size: 1.2em;
+    color: black;
+    padding-top: 3px;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-style: normal;
+}
+
+a:hover {
+    text-decoration: #0065FC;
+    color: #0065FC;
+}
+
+header nav a {
+    margin-left: 20px;
+}
+
+.hebergements-activites a:hover {
+    border-top: 3px solid #0065FC;
+    transition-duration: 0.1s;
+}
+
+.signup a:hover {
+    border-bottom: 3px solid #0065FC;
+    transition-duration: 0.1s;
+}
+
+.headersignup {
+    color: #0065FC;
+    font-weight: bold;
+    margin-right: 10px;
+}
