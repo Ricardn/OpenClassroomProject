@@ -163,7 +163,7 @@ header nav a {
     outline: none;
     font-weight: bold;
 }
-/*Animation rechercher*/
+/** Animation rechercher **/
  
     .rechercher:hover {
         color: white;
@@ -173,3 +173,93 @@ header nav a {
     .rechercher_loupe {
         display: none;
     }
+
+/** Filtres **/
+
+#filtres-section {
+    display: flex;
+    align-items: center;
+    padding: 1px;
+}
+
+.filtre_bouton {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-top: 1px;
+    flex-wrap: wrap;
+}
+
+    /** Rond Icones Filtres **/
+
+.filtres {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px;
+}
+
+    .circle-icon-filter {
+    width: 50px;
+    height: 50px;
+    background-color: #deebff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 2px;
+    left: 1px;
+}
+
+.fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog {
+    color: #0065FC;
+    font-size: 1.5em;
+}
+
+    /** rond filtres **/
+
+.filtres p {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border: 2px solid #d9d9d9;
+    padding: 0px 25px 0px 65px;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+    /** animation filtres **/
+.filtres p:hover {      
+    background: #DEEBFF;
+    transition: .30s;
+    }
+
+.titre_filtres p {
+    font-size: medium;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: small;
+    font-style: italic;
+    font-weight: normal;
+}
+
+.nombre_logements {
+    margin: 0px 0px 35px 0px;
+}
+
+.filtre_bouton:hover {
+    display: flex;
+    text-decoration: underline;
+    color: #0065FC;
+}
+
+.fas.fa-info-circle {
+    color: #0065FC;
+}
+
+.filtre_bouton {
+    margin: 15px;
+}
