@@ -165,14 +165,14 @@ header nav a {
 }
 /** Animation rechercher **/
  
-    .rechercher:hover {
-        color: white;
-        text-decoration: underline;
-    }
+.rechercher:hover {
+    color: white;
+    text-decoration: underline;
+}
     
-    .rechercher_loupe {
-        display: none;
-    }
+.rechercher_loupe {
+    display: none;
+}
 
 /** Filtres **/
 
@@ -219,7 +219,7 @@ header nav a {
 
     /** rond filtres **/
 
-.filtres p {
+.filtres a {
     height: 50px;
     display: flex;
     align-items: center;
@@ -230,15 +230,30 @@ header nav a {
 }
 
     /** animation filtres **/
-.filtres p:hover {      
-    background: #DEEBFF;
-    transition: .30s;
-    }
 
 .titre_filtres p {
     font-size: medium;
     font-weight: bold;
 }
+
+.titre_filtres a {
+    font-size: medium;
+    font-weight: bold;
+}
+
+.filtres a:hover {      
+    background: #DEEBFF;
+    transition: .30s;
+}
+
+.filtre_bouton:hover {
+    display: flex;
+    text-decoration: underline;
+    color: #0065FC;
+}
+
+
+ /** Info Circle **/
 
 h3 {
     font-size: small;
@@ -249,14 +264,7 @@ h3 {
 .nombre_logements {
     margin: 0px 0px 35px 0px;
 }
-
-.filtre_bouton:hover {
-    display: flex;
-    text-decoration: underline;
-    color: #0065FC;
-}
-
-.fas.fa-info-circle {
+ .fas.fa-info-circle {
     color: #0065FC;
 }
 
