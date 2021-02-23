@@ -371,3 +371,77 @@ h3 {
     transform: scale(1.1);
     transition: .20s;
 }
+
+/** Hébergements Populaires **/
+
+.titre_populaires {
+    margin: 0px;
+    font-size: large;
+    margin-bottom: 21px;
+}
+
+.fa-chart-line {
+    color: black;
+    margin-left: 150px;
+}
+
+#container_hebergements_populaires {
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    padding: 45px 38px 31px 45px;
+    max-width: 345px;
+}
+
+.hebergement_populaires {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.box_populaire {
+    border: 3px solid white;
+    border-radius: 20px;
+    display: flex;
+    background-color: white;
+    padding: 6px 58px 6px 6px;
+    max-width: 284px;
+    max-height: 135px;
+    margin-bottom: 29px;
+}
+
+.photo_populaire {
+    width: 132px;
+    height: 132px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.hebergement_contenu_populaire {
+    padding: 7px 0px 7px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.titre_populaire_contenu, h3 {
+    padding-bottom: 14px;
+    font-weight: bold;
+}
+
+.prix_populaire_contenu {
+    padding-bottom: 30px;
+}
+
+.hebergement_notation_populaire {
+    max-width: 100px;
+    max-height: 15px;
+}
+
+  /** Animation Hébergements Populaires **/
+
+  .box_populaire:hover {
+    transform: scale(1.1);
+    transition: .20s;
+}
