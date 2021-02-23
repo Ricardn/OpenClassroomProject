@@ -535,3 +535,52 @@ h3 {
     transform: scale(1.1);
     transition: .20s;
 }
+
+
+
+/** Footer **/
+
+footer {
+    max-width: 1350px;
+    padding: 48px 20px 51px 50px;
+    background-color: #F2F2F2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.titre_apropos {
+    padding-bottom: 22px;
+}
+
+.a_propos {
+    display: flex;
+    flex-direction: column;
+}
+
+.titre_noshebergements {
+    margin-bottom: 22px;
+}
+
+.nos_hebergements {
+    display: flex;
+    flex-direction: column;
+}
+
+.titre_assistance {
+    padding-bottom: 22px;
+}
+
+.assistance {
+    display: flex;
+    flex-direction: column;
+}
+
+footer h4 {
+    font-weight: normal;
+}
+
+footer h2 {
+    font-size: large;
+}
