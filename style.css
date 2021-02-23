@@ -428,6 +428,7 @@ h3 {
 .titre_populaire_contenu, h3 {
     padding-bottom: 14px;
     font-weight: bold;
+    font-style: normal;
 }
 
 .prix_populaire_contenu {
