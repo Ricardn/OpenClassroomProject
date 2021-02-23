@@ -446,3 +446,92 @@ h3 {
     transform: scale(1.1);
     transition: .20s;
 }
+
+/** Activités à Marseille **/
+
+#Activités_à_Marseille {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+    max-width: 1350px;
+}
+
+#Activités_à_Marseille h1 {
+    font-size: large;
+}
+
+#Activités_à_Marseille h2 {
+    font-size: medium;
+    padding-left: 15px;
+}
+
+.titre_activites {
+    margin-bottom: 27px;
+    font-size: large;
+}
+
+.activites {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.activite2et3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.activite5et6 {
+    display: flex;
+    flex-direction: column;
+}
+
+.activite_1, 
+.activite_2, 
+.activite_3,
+.activite_4, 
+.activite_5, 
+.activite_6 {
+    box-shadow: 0 0 20px  #0000002e;
+    padding: 0px 0px 20px 0px;
+    border-radius: 20px;
+    margin: 0px 0px 20px 0px;
+}
+
+.photo_activite_1, 
+.photo_activite_2, 
+.photo_activite_3,
+.photo_activite_4, 
+.photo_activite_5, 
+.photo_activite_6 {
+    background-size: 100% 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 0px 0px 22px 0px;
+}
+
+.photo_activite1_1, 
+.photo_activite2_2, 
+.photo_activite3_3,
+.photo_activite4_4, 
+.photo_activite5_5, 
+.photo_activite6_6 {
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+  /** Animation Activités à Marseille **/
+
+  .activite_1:hover, 
+  .activite_2:hover, 
+  .activite_3:hover,
+  .activite_4:hover, 
+  .activite_5:hover, 
+  .activite_6:hover {
+    transform: scale(1.1);
+    transition: .20s;
+}
