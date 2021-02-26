@@ -23,9 +23,9 @@ h3 {
     font-weight: bold;
 }
 
-/** Taille Logo **/
+/** Logo Size **/
 
-.headerlogoImg {
+.header-logo {
     padding: 0rem;
     height: 2.9rem;
 }
@@ -45,9 +45,9 @@ header nav {
     align-items: center;
 }
 
-/** Mise en page Barre Navigation **/
+/** Navigation Menu **/
 
-.headernavlink {
+.header-nav-link {
     padding-top: 30px;
     padding-bottom: 20px;
 }
@@ -74,7 +74,7 @@ header nav a {
     margin-left: 20px;
 }
 
-.hebergements-activites a:hover {
+.accommodation-activities a:hover {
     border-top: 3px solid #0065FC;
     transition-duration: 0.1s;
 }
@@ -84,13 +84,13 @@ header nav a {
     transition-duration: 0.1s;
 }
 
-.headersignup {
+.header-signup {
     color: #0065FC;
     font-weight: bold;
     margin-right: 10px;
 }
 
-/** Titre et sous titre **/
+/** Main title and Subtitle **/
 
 .hearder-2 {
     display: flex;
@@ -109,16 +109,16 @@ header nav a {
     font-weight: normal;
 }
 
-.titre-principal {
+.main-title {
     display: flex;
     flex-direction: column;
 }
 
-.header-titre-principal {
+.header-main-title {
     margin-bottom: 14px;
 }
 
-/** Barre de Recherche **/
+/** Search Bar **/
 
 .fas {
     color: #0065fc;
@@ -156,7 +156,7 @@ header nav a {
     width: 310px;
 }
 
-.rechercher {
+.search-btn {
     background-color: #0065FC;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -169,24 +169,26 @@ header nav a {
 }
 /** Animation rechercher **/
  
-.rechercher:hover {
+.search-btn:hover {
     color: white;
     text-decoration: underline;
 }
-    
+
+/**    
 .rechercher-loupe {
     display: none;
 }
+**/
 
 /** Filtres **/
 
-#filtres-section {
+#section-filters {
     display: flex;
     align-items: center;
     padding: 1px;
 }
 
-.filtre-bouton {
+.filters-btn {
     display: flex;
     flex-direction: row;
     position: relative;
@@ -196,7 +198,7 @@ header nav a {
 
     /** Rond Icones Filtres **/
 
-.filtres {
+.filters {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -223,7 +225,7 @@ header nav a {
 
     /** rond filtres **/
 
-.filtres a {
+.filters a {
     height: 50px;
     display: flex;
     align-items: center;
@@ -233,31 +235,35 @@ header nav a {
     font-weight: bold;
 }
 
+.filters-btn {
+    margin: 15px;
+}
+
     /** animation filtres **/
 
-.titre-filtres p {
+.filters-title p {
     font-size: medium;
     font-weight: bold;
 }
 
-.titre-filtres a {
+.filters-title a {
     font-size: medium;
     font-weight: bold;
 }
 
-.filtres a:hover {      
+.filters a:hover {      
     background: #DEEBFF;
     transition: .30s;
 }
 
-.filtre-bouton:hover {
+.filters-btn:hover {
     display: flex;
     text-decoration: underline;
     color: #0065FC;
 }
 
 
-/** Info Circle **/
+/** Accommodation Information **/
 
 h3 {
     font-size: small;
@@ -265,22 +271,18 @@ h3 {
     font-weight: normal;
 }
 
-.nombre-logements {
+.accommodation-information {
     margin: 0px 0px 35px 0px;
 }
  
-/*.fa-info-circle {
-    color: white;
-    background-color: #0065FC;
-}*/
-
-.filtre-bouton {
-    margin: 15px;
+.fa-info-circle {
+    color: #0065FC;
 }
+
 
 /** Hébergements à Marseille **/
 
-#hebergements {
+#accommodation {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -288,13 +290,13 @@ h3 {
     margin-bottom: 56px;
 }
 
-.titre-hebergements-a-marseille {
+.accommodation-in-marseille-title {
     margin: 0px;
     font-size: large;
     margin-bottom: 21px;
 }
 
-#hebergements-a-marseille {
+#accommodation-in-marseille {
     background-color: #F2F2F2;
     display: flex;
     flex-direction: column;
@@ -302,7 +304,7 @@ h3 {
     align-content: space-between;
     border-radius: 20px;
     padding: 44px 36px 44px 36px;
-    max-width: 805px;
+    max-width: 812px;
 }
 
 .container-item {
@@ -323,12 +325,7 @@ h3 {
     margin-bottom: 28px;
 }
 
-.heberment-image {
-    padding-left: 5px;
-    padding-right: 5px;
-}
-
-.photo-hebergement {
+.accommodation-picture {
     object-fit: cover;
     width: 236px;
     height: 112px;
@@ -336,27 +333,27 @@ h3 {
     border-top-right-radius: 10px;
 }
 
-.heberment-contenu {
+.accommodation-content {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     padding-left: 16px;
 }
 
-.titre-contenu {
+.content-title {
     padding-top: 11px;
     padding-bottom: 11px;
 }
 
-.prix-contenu {
+.accommodation-price {
     padding-bottom: 11px;
 }
 
-.hebergement-notation {
+.accommodation-rating {
     padding-bottom: 11px;
 }
 
-.contenu-hebergement h3 {
+.accommodation-content h3 {
     font-weight: bold;
     font-style: normal;
 }
@@ -365,16 +362,16 @@ h3 {
     color: #d9d9d9;
 }
 
-    /** Animation Hébergements **/
+    /** Accommodation Animation **/
 
 .box:hover {
     transform: scale(1.1);
     transition: .20s;
 }
 
-/** Hébergements Populaires **/
+/** Popular Accommodation in Marseille **/
 
-.titre-populaires {
+.popular-title {
     margin: 0px;
     font-size: large;
     margin-bottom: 21px;
@@ -385,22 +382,23 @@ h3 {
     margin-left: 150px;
 }
 
-#container-hebergements-populaires {
+#container-popular-accommodation {
     background-color: #f2f2f2;
     display: flex;
     flex-direction: column;
     border-radius: 20px;
     padding: 45px 38px 31px 45px;
     max-width: 345px;
+    margin-right: 30px;
 }
 
-.hebergement-populaires {
+.popular-accommodations {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
 }
 
-.box-populaire {
+.popular-box {
     border: 3px solid white;
     border-radius: 20px;
     display: flex;
@@ -411,7 +409,7 @@ h3 {
     margin-bottom: 29px;
 }
 
-.photo-populaire {
+.popular-picture {
     width: 132px;
     height: 132px;
     object-fit: cover;
@@ -419,37 +417,37 @@ h3 {
     border-bottom-left-radius: 10px;
 }
 
-.hebergement-contenu-populaire {
+.popular-accommodation-content {
     padding: 7px 0px 7px 20px;
     display: flex;
     flex-direction: column;
 }
 
-.titre-populaire-contenu, h3 {
+.popular-content-title, h3 {
     padding-bottom: 14px;
     font-weight: bold;
     font-style: normal;
 }
 
-.prix-populaire-contenu {
+.popular-content-price {
     padding-bottom: 30px;
 }
 
-.hebergement-notation-populaire {
+.popular-accommodation-rating {
     max-width: 100px;
     max-height: 15px;
 }
 
-  /** Animation Hébergements Populaires **/
+  /** Popular Accommodation Animation **/
 
-  .box-populaire:hover {
+  .popular-box:hover {
     transform: scale(1.1);
     transition: .20s;
 }
 
-/** Activités à Marseille **/
+/** Activities in Marseille **/
 
-#Activités-à-Marseille {
+#Activities-in-Marseille {
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -458,67 +456,67 @@ h3 {
     max-width: 1350px;
 }
 
-#Activités-à-Marseille h1 {
+#Activities-in-Marseille h1 {
     font-size: large;
 }
 
-#Activités-à-Marseille h2 {
+#Activities-in-Marseille h2 {
     font-size: medium;
     padding-left: 15px;
 }
 
-.titre-activites {
+.activities-title {
     margin-bottom: 27px;
     font-size: large;
 }
 
-.activites {
+.activities {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-.activite2et3 {
+.activity2and3 {
     display: flex;
     flex-direction: column;
 }
 
-.activite5et6 {
+.activity5and6 {
     display: flex;
     flex-direction: column;
 }
 
-.activite-1, 
-.activite-2, 
-.activite-3,
-.activite-4, 
-.activite-5, 
-.activite-6 {
+.activity-1, 
+.activity-2, 
+.activity-3,
+.activity-4, 
+.activity-5, 
+.activity-6 {
     box-shadow: 0 0 20px  #0000002e;
     padding: 0px 0px 20px 0px;
     border-radius: 20px;
     margin: 0px 0px 20px 0px;
 }
 
-.photo-activite-1, 
-.photo-activite-2, 
-.photo-activite-3,
-.photo-activite-4, 
-.photo-activite-5, 
-.photo-activite-6 {
+.picture-activity-1, 
+.picture-activity-2, 
+.picture-activity-3,
+.picture-activity-4, 
+.picture-activity-5, 
+.picture-activity-6 {
     background-size: 100% 100%;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     padding: 0px 0px 22px 0px;
 }
 
-.photo-activite1-1, 
-.photo-activite2-2, 
-.photo-activite3-3,
-.photo-activite4-4, 
-.photo-activite5-5, 
-.photo-activite6-6 {
+.picture-activity1-1, 
+.picture-activity2-2, 
+.picture-activity3-3,
+.picture-activity4-4, 
+.picture-activity5-5, 
+.picture-activity6-6 {
     object-fit: cover;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -526,12 +524,12 @@ h3 {
 
   /** Animation Activités à Marseille **/
 
-  .activite-1:hover, 
-  .activite-2:hover, 
-  .activite-3:hover,
-  .activite-4:hover, 
-  .activite-5:hover, 
-  .activite-6:hover {
+  .activity-1:hover, 
+  .activity-2:hover, 
+  .activity-3:hover,
+  .activity-4:hover, 
+  .activity-5:hover, 
+  .activity-6:hover {
     transform: scale(1.1);
     transition: .20s;
 }
@@ -550,25 +548,25 @@ footer {
     flex-direction: row;
 }
 
-.titre-apropos {
+.about-title {
     padding-bottom: 22px;
 }
 
-.a-propos {
+.about {
     display: flex;
     flex-direction: column;
 }
 
-.titre-noshebergements {
+.our-accommodations-title {
     margin-bottom: 22px;
 }
 
-.nos-hebergements {
+.our-accommodations {
     display: flex;
     flex-direction: column;
 }
 
-.titre-assistance {
+.assistance-title {
     padding-bottom: 22px;
 }
 
@@ -577,122 +575,11 @@ footer {
     flex-direction: column;
 }
 
-.footer-list li {
+.footer li {
     list-style: none;
     margin: 1em 0;
 }
 
-.footer-list ul {
+.footer ul {
     margin: 1em 0;
-}
-
-
-/*Responsive*/
-
-@media all and (min-width : 1300px) {
-
-
-    .photo-activite1-1,
-    .photo-activite4-4 {
-        width: 301px;
-        height: 390px;
-    }
-
-    .photo-activite2-2 {
-        width: 304px;
-        height: 183px;
-    }
-
-    .photo-activite3-3 {
-        width: 304px;
-        height: 112px;
-    }
-
-    .photo-activite5-5 {
-        width: 304px;
-        height: 141px;
-    }
-
-    .photo-activite6-6 {
-        width: 304px;
-        height: 155px;
-    }
-}
-
-@media all and (max-width : 1360px) {
-
-    header,
-    .header-2,
-    #filtres-section {
-        margin-left: 15px;
-    }
-}
-
-
-@media all and (max-width : 1315px) {
-
-    #hebergements-a-marseille {
-        margin-bottom: 50px;
-    }
-
-    .hebergement-les-plus-populaires {
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
-
-    #container-hebergements-populaires {
-        max-width: 805px;
-    }
-
-    .photo-activite1-1 {
-        width: 301px;
-        height: 390px;
-    }
-
-    .photo-activite4-4 {
-        width: 304px;
-        height: 391px;
-    }
-
-    #Activités-à-Marseille {
-        margin-left: 45px;
-    }
-
-}
-
-@media all and (max-width : 1330px) {
-
-    .photo-activite1-1,
-    .photo-activite2-2,
-    .photo-activite3-3,
-    .photo-activite4-4,
-    .photo-activite5-5,
-    .photo-activite6-6 {
-        width: 309px;
-        height: 112px;
-    }
-
-    .activite-1,
-    .activite-2,
-    .activite-3,
-    .activite-4,
-    .activite-5,
-    .activite-6 {
-        width: 309px;
-        height: 182px;
-        margin-right: 20px;
-    }
-
-    .activite2et3,
-    .activite5et6 {
-        display: flex;
-        flex-direction: row;
-        align-items: flex-start;
-    }
-
-    .activites {
-        display: flex;
-        justify-content: flex-start;
-    }
 }
