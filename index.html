@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reservia</title>
+    <link rel="shortcut icon" href="./images/logo/LogoReservia.png">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/responsive.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -24,8 +25,8 @@
             <!-- Navigation Menu -->
             <nav>
                 <div class="accommodation-activities">
-                    <a class="header-nav-link" href="#accommodation">Hébergements</a>
-                    <a class="header-nav-link" href="#Activities-in-Marseille">Activités</a>
+                    <a class="header-nav-link-1" href="#accommodation">Hébergements</a>
+                    <a class="header-nav-link-2" href="#Activities-in-Marseille">Activités</a>
                 </div>
                 <div class="signup">
                     <a class="header-signup" href="#">S'inscrire</a>
@@ -50,7 +51,7 @@
                     </div>
                     <input type="search" class="type-search" placeholder=" Marseille, France" name="location-search" style="font-weight: bold">
                     <button class="search-btn">Rechercher</button>
-                    <!-- <button class="search-icon"><span><i class="fas fa-search"></i></span></button> -->
+                    <button class="search-icon"><i class="fas fa-search"></i></button>
                 </div>
             </div>
         </div>
@@ -95,7 +96,7 @@
         <!-- Accommodation In Marseille -->
         <section id="accommodation">
             <div id="accommodation-in-marseille">
-                <h2 class="accommodation-in-marseille-title">Hébergemnets à Marseille</h2>
+                <h2 class="accommodation-in-marseille-title">Hébergements à Marseille</h2>
                 <div class="container-item">
                     <a href="#">
                         <div class="box">
@@ -224,69 +225,71 @@
 
             <!-- Popular Accommodation in Marseille -->
             <div id="container-popular-accommodation">
-                <h2 class="popular-title">Les plus populaires <i class="fas fa-chart-line chart-line*black"></i></h2>
-                <div class="popular-accommodations">
-                    <a href="#">
-                        <div class="popular-box">
-                            <img class="popular-picture" 
-                            src="./images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" 
-                            alt="Accommodation Picture"/>
-                            <div class="popular-accommodation-content">
-                                <div class="popular-content-title">
-                                    <h3>Hôtel Le soleil du matin</h3>
+                <div class="popular-row">
+                    <h2 class="popular-title">Les plus populaires <i class="fas fa-chart-line chart-line*black"></i></h2>
+                        <div class="popular-accommodations">
+                            <a href="#">
+                                <div class="popular-box">
+                                    <img class="popular-picture" 
+                                    src="./images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" 
+                                    alt="Accommodation Picture"/>
+                                    <div class="popular-accommodation-content">
+                                        <div class="popular-content-title">
+                                            <h3>Hôtel Le soleil du matin</h3>
+                                        </div>
+                                        <div class="popular-content-price">
+                                            <p class="popular-accommodation-price">Nuit à partir de <span
+                                            class="accommodation-price-unit"><strong>128€</strong></span></p>
+                                        </div>
+                                        <div class="popular-accommodation-rating">
+                                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="popular-content-price">
-                                    <p class="popular-accommodation-price">Nuit à partir de <span
-                                        class="accommodation-price-unit"><strong>128€</strong></span></p>
-                                </div>
-                                <div class="popular-accommodation-rating">
-                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i><i class="fas fa-star"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="popular-box">
-                            <img class="popular-picture" 
-                            src="./images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" 
-                            alt="Accommodation Picture"/>
-                            <div class="popular-accommodation-content">
-                                <div class="popular-content-title">
-                                    <h3>Au coeur de l'eau<br>
-                                        chambre d'hôtes</h3>
-                                </div>
-                                <div class="popular-content-price">
-                                    <p class="popular-accommodation-price">Nuit à partir de <span
-                                        class="accommodation-price-unit"><strong>71€</strong></span></p>
-                                </div>
-                                <div class="popular-accommodation-rating">
-                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i><i class="fas fa-star grey"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="popular-box">
-                            <img class="popular-picture" 
-                            src="./images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" 
-                            alt="Accommodation Picture"/>
-                            <div class="popular-accommodation-content">
-                                <div class="popular-content-title">
-                                    <h3>Hôtel Tout bleu et Blanc</h3>
-                                </div>
-                                <div class="popular-content-price">
-                                    <p class="popular-accommodation-price">Nuit à partir de <span
-                                        class="accommodation-price-unit"><strong>68€</strong></span></p>
-                                </div>
-                                <div class="popular-accommodation-rating">
-                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i><i class="fas fa-star grey"></i>
+                            </a>
+                        <a href="#">
+                            <div class="popular-box">
+                                <img class="popular-picture" 
+                                src="./images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" 
+                                alt="Accommodation Picture"/>
+                                <div class="popular-accommodation-content">
+                                    <div class="popular-content-title">
+                                        <h3>Au coeur de l'eau<br>
+                                            chambre d'hôtes</h3>
+                                    </div>
+                                    <div class="popular-content-price">
+                                        <p class="popular-accommodation-price">Nuit à partir de <span
+                                            class="accommodation-price-unit"><strong>71€</strong></span></p>
+                                    </div>
+                                    <div class="popular-accommodation-rating">
+                                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i><i class="fas fa-star grey"></i>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </a>
+                        </a>
+                        <a href="#">
+                            <div class="popular-box">
+                                <img class="popular-picture" 
+                                src="./images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" 
+                                alt="Accommodation Picture"/>
+                                <div class="popular-accommodation-content">
+                                    <div class="popular-content-title">
+                                        <h3>Hôtel Tout bleu et Blanc</h3>
+                                    </div>
+                                    <div class="popular-content-price">
+                                        <p class="popular-accommodation-price">Nuit à partir de <span
+                                            class="accommodation-price-unit"><strong>68€</strong></span></p>
+                                    </div>
+                                    <div class="popular-accommodation-rating">
+                                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i><i class="fas fa-star grey"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
                 </div>
             </div>
         </section>
