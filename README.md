@@ -10,5 +10,4 @@ L'objectif est d'intégrer la maquette d'un site de planification de vacances no
 * Toutes les images présentes sur le site sont aussi livrés en format sm, md, l & xl.
 * Les icones proviennent de Font Awesome
 * Les couleurs sont : bleu #0065FC - bleu clair #DEEBFF - gris #F2F2F2
-* La police est [Raleway](#https://fonts.google.com/specimen/Raleway?preview.text_type=custom)
-
+* La police est [Raleway](https://fonts.google.com/specimen/Raleway?preview.text_type=custom)
