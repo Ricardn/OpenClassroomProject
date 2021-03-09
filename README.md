@@ -23,3 +23,6 @@ L'objectif est d'intégrer la maquette d'un site de planification de vacances no
 * Le code devra utiliser les balises sémantiques et ne doit contenir aucune erreur ni alerte au validateur W3C HTML et CSS.
 * Le HTML et le CSS doivent être séparés et le dossier doit être organisé
 * Le code doit être versionné avec git et doit avoir un repo distant sur Github ou Gitlab
+
+## Démonstration 
+* Vous pouvez accéder à la démonstration en ligne du site [Réservia](https://ricardn.github.io/RicardoNogueira_2_09022021.github.io/)
