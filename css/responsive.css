@@ -145,7 +145,6 @@
     .popular-title .fas {
         display: flex;
         margin-left: 5%;
-
     }
 
     #accommodation-in-marseille {
@@ -248,16 +247,14 @@
   .header-nav-link-1 {
     left: 0;
     width: 50%;
-    margin: auto 0;
-    padding: 60px 0 0 10px;
+    margin: 15px 0px;
     text-align: center;
     } 
 
   .header-nav-link-2 {
     right: 0;
     width: 50%;
-    padding: 60px 10px 0 0;
-    margin: auto 0;
+    margin: 15px 0px;
     text-align: center;
   } 
 } 
