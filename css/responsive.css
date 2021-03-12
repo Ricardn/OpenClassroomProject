@@ -549,3 +549,256 @@
         width: auto;
     }
 }
+
+
+
+/** Orientation **/
+
+@media screen and (max-width : 667px) and (orientation: landscape) {
+
+    header {
+        width: 100%;
+    }
+
+    .header-logo {
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+
+    .signup{
+        margin-bottom: 20px;
+    }
+
+    .header-2,
+    .filters-title,
+    .accommodation-information {
+        padding: 20px;
+    }
+
+    .container {
+        overflow: hidden;
+        padding: 0;
+        max-width: 667px;
+    }
+    
+    .search-btn {
+        display: none;
+    }
+
+    .search-bar {
+        width: 100%;
+    }
+
+    .search-icon{
+        display: block;
+        width: 20%;
+        background-color: #0065FC;
+        font-weight: bold;
+        border: none;
+        border-radius: 0 1rem 1rem 0;
+    }
+
+    .search-icon i {
+        color: white;
+    }
+
+    #container-popular-accommodation {
+        padding-left: 30px;
+        width: 20px;
+        border-radius: 0px;
+        min-width: 100%;
+    }
+
+    .popular-content-title {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .popular-box {
+        padding-right: 15px;
+        margin-top: 5px;
+    }
+    
+    .popular-accommodation-content {
+        width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .popular-accommodation-rating {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .popular-picture {
+        width: 100%;
+    }    
+    
+    #accommodation-in-marseille {
+        padding: 10px;
+    }
+
+    #accommodation-in-marseille,
+    .box {
+        flex-flow: column;
+        flex-wrap: wrap;
+        width: 100%;
+        background-color: white;
+    }
+
+    .box {
+        box-shadow: 0 0 20px #0000002e;
+        min-width: 275px;
+    }
+    
+    .container-item {
+        justify-content: space-around;
+        margin-right: 15px;
+    }
+
+    .accommodation-show-more {
+        margin-right: 80%;
+    }
+
+    .accommodation-picture {
+        width: 100%;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    #Activities-in-Marseille {
+        justify-content: space-around;
+        flex-flow: column;
+        margin-left: 15px;
+    }
+
+    footer {
+        padding: 48px 90px 51px 50px;
+        width: 80%;
+    }
+}
+
+@media screen and (min-width : 668px) and (max-width: 812px) and (orientation: landscape) {
+
+    header {
+        width: 100%;
+    }
+
+    .header-logo {
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+
+    .signup{
+        margin-bottom: 20px;
+    }
+
+    .header-2,
+    .filters-title,
+    .accommodation-information {
+        padding: 20px;
+    }
+
+    .container {
+        overflow: hidden;
+        padding: 0;
+        max-width: 736px;
+    }
+    
+    .search-btn {
+        display: none;
+    }
+
+    .search-bar {
+        width: 100%;
+    }
+
+    .search-icon{
+        display: block;
+        width: 20%;
+        background-color: #0065FC;
+        font-weight: bold;
+        border: none;
+        border-radius: 0 1rem 1rem 0;
+    }
+
+    .search-icon i {
+        color: white;
+    }
+
+    #container-popular-accommodation {
+        padding-left: 30px;
+        width: 20px;
+        border-radius: 0px;
+        min-width: 100%;
+    }
+
+    .popular-content-title {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .popular-box {
+        padding-right: 15px;
+        margin-top: 5px;
+    }
+    
+    .popular-accommodation-content {
+        width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .popular-accommodation-rating {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .popular-picture {
+        width: 100%;
+    }    
+    
+    #accommodation-in-marseille {
+        padding: 10px;
+    }
+
+    #accommodation-in-marseille,
+    .box {
+        flex-flow: column;
+        flex-wrap: wrap;
+        width: 100%;
+        background-color: white;
+    }
+
+    .box {
+        box-shadow: 0 0 20px #0000002e;
+        min-width: 275px;
+    }
+    
+    .container-item {
+        justify-content: space-around;
+        margin-right: 15px;
+    }
+
+    .accommodation-show-more {
+        margin-right: 80%;
+    }
+
+    .accommodation-picture {
+        width: 100%;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    #Activities-in-Marseille {
+        justify-content: space-around;
+        flex-flow: column;
+        margin-left: 30px;
+        margin-right: 20px;
+    }
+
+    footer {
+        padding: 48px 90px 51px 50px;
+        width: 90%;
+    }
+}
